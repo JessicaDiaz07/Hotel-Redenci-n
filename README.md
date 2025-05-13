@@ -1,8 +1,8 @@
 # Proyecto Final "Algoritmia y Programaciòn"
 ## Integrantes
-- Santiago Ceballo – Encargado del código.
-- Luna Arismendi – Encargada de documentación.
-- Jessica Diaz – Encargada de pruebas
+- Santiago Ceballos Garro – Encargado del código.
+- Luna Daniela Arismendi Tafur – Encargada de documentación.
+- Jessica Julieth Diaz Dizzett – Encargada de pruebas
 ## Vínculos académicos y descripción:
 ### Jessica Diaz
 Soy estudiante de Ingeniería Industrial y, aunque no tengo mucha experiencia técnica, aportaré mi enfoque analítico para diseñar y organizar pruebas, identificar errores y asegurar que el software cumpla con los requisitos y que sea fácil de usar.
