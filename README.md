@@ -1,5 +1,5 @@
 # Proyecto Final "Algoritmia y Programaciòn"
-# Hotel-Redenci-n
+# Hotel Redención
 ## Integrantes
 - Santiago Ceballo – Encargado del código.
 - Luna Arismendi – Encargada de documentación.
