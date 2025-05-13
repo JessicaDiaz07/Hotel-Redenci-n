@@ -1,5 +1,4 @@
 # Proyecto Final "*Algoritmia y Programaciòn*"
-
 # Hotel-Redenci-n
 ## Integrantes
 - Santiago Ceballo – Encargado del código.
