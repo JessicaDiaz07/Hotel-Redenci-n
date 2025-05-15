@@ -33,6 +33,7 @@ Este sistema informático busca automatizar y optimizar dichos procesos mediante
 Proporcionar un servicio de hospedaje cómodo y eficiente, brindando una experiencia memorable a sus huéspedes mediante la atención personalizada, un ambiente tranquilo y la mejora continua de sus procesos operativos para garantizar la satisfacción y fidelidad de sus clientes. 
 
 ## Logotipo del Proyecto 
+![7544d7c6-70ce-4493-997a-1d5e0d928941](https://github.com/user-attachments/assets/62dae58d-4d87-4325-972f-b96995c40185)
 
 ## Licencia del software 
 
