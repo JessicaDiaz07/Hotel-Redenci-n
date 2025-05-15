@@ -37,8 +37,8 @@ Proporcionar un servicio de hospedaje cómodo y eficiente, brindando una experie
 
 ## Licencia del software 
 
-El hotel Redención está licenciada bajo CC BY-NC-SA 4.0. Para ver una copia de esta licencia, visite https://creativecommons.org/licenses/by-nc-sa/4.0/© 2 por Santiago Ceballos, Jessica Díaz, Luna Arismendi 
-
+ Hotel Redención © 2025 por Jessica Diaz, Luna Arismendi, Santiago Ceballos está bajo licencia Creative Commons Reconocimiento-SinDerivadas 4.0 Internacional. Para ver una copia de esta licencia, visite https://creativecommons.org/licenses/by-nd/4.0/ 
+ 
 ## Reporte de visión 
 
 Este software tiene como objetivo ayudar al Hotel Redención a gestionar de manera eficiente el registro de huéspedes, las reservas, los check-ins y check-outs, así como los cobros y la emisión de facturas. El programa resolverá problemas de desorganización, errores en la información y retrasos en los procesos, que actualmente se gestionan de forma manual. Si el sistema funciona correctamente, facilitará el trabajo administrativo, mejorará la precisión de los cobros, optimizará el tiempo del personal y proporcionará un mejor servicio a los clientes, permitiendo al hotel operar de manera más eficiente y sin inconvenientes. 
