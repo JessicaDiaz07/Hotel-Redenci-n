@@ -1,4 +1,4 @@
-# Proyecto Final "Algoritmia y Programaciòn"
+# Proyecto Final "Algoritmia y Programación"
 ## Integrantes
 - Santiago Ceballos Garro – Encargado del código.
 - Luna Daniela Arismendi Tafur – Encargada de documentación.
