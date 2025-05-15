@@ -43,7 +43,7 @@ Proporcionar un servicio de hospedaje cómodo y eficiente, brindando una experie
 
 Este software tiene como objetivo ayudar al Hotel Redención a gestionar de manera eficiente el registro de huéspedes, las reservas, los check-ins y check-outs, así como los cobros y la emisión de facturas. El programa resolverá problemas de desorganización, errores en la información y retrasos en los procesos, que actualmente se gestionan de forma manual. Si el sistema funciona correctamente, facilitará el trabajo administrativo, mejorará la precisión de los cobros, optimizará el tiempo del personal y proporcionará un mejor servicio a los clientes, permitiendo al hotel operar de manera más eficiente y sin inconvenientes. 
 
-### Requisitos Especificados
+## Requisitos Especificados
 
 El sistema debe ser capaz de gestionar de manera eficiente las operaciones de un hotel, incluyendo el registro de huéspedes, la realización de reservas, el registro de salida (check-out) y la administración de los datos de los huéspedes y las habitaciones. 
 
