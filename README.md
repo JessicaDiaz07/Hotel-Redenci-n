@@ -74,3 +74,7 @@ realizar_reserva(huesped, tipo_habitacion, fecha_ingreso, num_noches): Permite r
 calcular_costo(reserva): Calcula el costo total de la estancia en base al tipo de habitación y el número de noches. generar_comprobante(reserva): Genera un comprobante detallado de la reserva, incluyendo datos como costo total y fechas de estancia. registrar_salida(reserva): Realiza el proceso de check-out, calcula el costo y genera una factura con los detalles del huésped. 
 autenticar_usuario(usuario, contrasena). Valida las credenciales del administrador y permite el acceso al módulo de administración. 
 generar_reportes (huespedes, reservas): Genera los reportes administrativos sobre huéspedes registrados, habitaciones ocupadas, ingresos y más. 
+
+### Funciones necesarias para la solución: 
+
+
