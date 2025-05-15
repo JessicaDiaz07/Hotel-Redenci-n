@@ -50,29 +50,58 @@ El sistema debe ser capaz de gestionar de manera eficiente las operaciones de un
 ### Acciones que puede realizar el sistema: 
 
 Registrar huésped: El sistema debe permitir registrar un nuevo huésped en el hotel. Se validarán los datos de nombre, apellido, documento de identidad, correo electrónico y teléfono. 
-Realizar reserva de habitación: Solo los huéspedes registrados pueden realizar reservas. El sistema debe validar tipo de habitación, fechas de ingreso, número de noches y disponibilidad de habitaciones. Generar comprobante de reserva: Tras una reserva exitosa, el sistema debe generar un comprobante con todos los detalles de la reserva, incluyendo costo total estimado. 
-Registrar salida (Check-Out): El sistema debe permitir el check-out solo si el huésped está registrado y tiene una estancia activa. 
-Se debe calcular el costo final y generar una factura. 
+
+Realizar reserva de habitación: Solo los huéspedes registrados pueden realizar reservas. El sistema debe validar tipo de habitación, fechas de ingreso, número de noches y disponibilidad de habitaciones. 
+
+Generar comprobante de reserva: Tras una reserva exitosa, el sistema debe generar un comprobante con todos los detalles de la reserva, incluyendo costo total estimado. 
+
+Registrar salida (Check-Out): El sistema debe permitir el check-out solo si el huésped está registrado y tiene una estancia activa. Se debe calcular el costo final y generar una factura. 
+
 Administración de usuarios: El sistema debe permitir que solo los usuarios con credenciales válidas accedan a la parte de administración del sistema. 
+
 Generación de reportes administrativos: El sistema debe generar reportes sobre el total de huéspedes registrados, habitaciones ocupadas, habitaciones disponibles, ingresos generados, tiempo promedio de estancia, entre otros.  
 
 ### Expectativas del sistema: 
 
-Validación de datos: El sistema debe validar correctamente todos los datos introducidos para los huéspedes, reservas, y check-out, asegurándose de que no haya errores como caracteres no permitidos o formatos incorrectos. Manejo de reservas: El sistema debe ser capaz de manejar las reservas de manera eficiente, asegurándose de que se asignen habitaciones disponibles y se calcule correctamente el costo basado en el tipo de habitación y el número de noches. Generación de comprobantes y facturas: Después de realizar una reserva o un check-out, el sistema debe generar y mostrar un comprobante o factura con la información completa. Control de acceso: Solo los usuarios autorizados deben poder acceder al módulo de administración y realizar acciones críticas como ver reportes y gestionar los datos de los huéspedes. 
+Validación de datos: El sistema debe validar correctamente todos los datos introducidos para los huéspedes, reservas, y check-out, asegurándose de que no haya errores como caracteres no permitidos o formatos incorrectos. 
+
+Manejo de reservas: El sistema debe ser capaz de manejar las reservas de manera eficiente, asegurándose de que se asignen habitaciones disponibles y se calcule correctamente el costo basado en el tipo de habitación y el número de noches. 
+
+Generación de comprobantes y facturas: Después de realizar una reserva o un check-out, el sistema debe generar y mostrar un comprobante o factura con la información completa.
+
+Control de acceso: Solo los usuarios autorizados deben poder acceder al módulo de administración y realizar acciones críticas como ver reportes y gestionar los datos de los huéspedes. 
 
 ### Lo que el sistema debe evitar: 
 
-Errores de validación: El sistema no debe permitir que se registren huéspedes con datos incorrectos o incompletos. Reserva sin disponibilidad: No se debe permitir que los huéspedes realicen reservas para fechas en las que no haya disponibilidad de habitaciones. Cobro erróneo: El sistema debe evitar calcular costos incorrectos, especialmente en caso de salidas anticipadas. Acceso no autorizado: Los usuarios no autorizados no deben poder acceder a la parte administrativa del sistema. 
+Errores de validación: El sistema no debe permitir que se registren huéspedes con datos incorrectos o incompletos. 
+
+Reserva sin disponibilidad: No se debe permitir que los huéspedes realicen reservas para fechas en las que no haya disponibilidad de habitaciones. 
+
+Cobro erróneo: El sistema debe evitar calcular costos incorrectos, especialmente en caso de salidas anticipadas. 
+
+Acceso no autorizado: Los usuarios no autorizados no deben poder acceder a la parte administrativa del sistema. 
 
 ### Funciones necesarias para la solución: 
 
 validar_nombre_apellido(nombre): Valida que el nombre y apellido del huésped tengan al menos 3 caracteres y no contengan números o caracteres especiales. 
+
 validar_documento(documento): Valida que el documento de identidad tenga entre 3 y 15 dígitos y contenga solo números. 
+
 validar_correo(correo): Valida que el correo electrónico tenga un formato adecuado (contenga un "@" y un dominio válido). 
+
 validar_telefono(telefono): Valida que el teléfono tenga entre 7 y 15 dígitos y contenga solo números. 
-realizar_reserva(huesped, tipo_habitacion, fecha_ingreso, num_noches): Permite realizar una reserva para un huésped previamente registrado, validando disponibilidad y fechas. 
-calcular_costo(reserva): Calcula el costo total de la estancia en base al tipo de habitación y el número de noches. generar_comprobante(reserva): Genera un comprobante detallado de la reserva, incluyendo datos como costo total y fechas de estancia. registrar_salida(reserva): Realiza el proceso de check-out, calcula el costo y genera una factura con los detalles del huésped. 
+
+realizar_reserva(huesped, tipo_habitacion, fecha_ingreso, num_noches): Permite realizar una reserva para un huésped previamente registrado, validando disponibilidad y 
+fechas. 
+
+calcular_costo(reserva): Calcula el costo total de la estancia en base al tipo de habitación y el número de noches. 
+
+generar_comprobante(reserva): Genera un comprobante detallado de la reserva, incluyendo datos como costo total y fechas de estancia. 
+
+registrar_salida(reserva): Realiza el proceso de check-out, calcula el costo y genera una factura con los detalles del huésped. 
+
 autenticar_usuario(usuario, contrasena). Valida las credenciales del administrador y permite el acceso al módulo de administración. 
+
 generar_reportes (huespedes, reservas): Genera los reportes administrativos sobre huéspedes registrados, habitaciones ocupadas, ingresos y más. 
 
 
