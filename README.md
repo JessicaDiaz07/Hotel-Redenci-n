@@ -104,7 +104,7 @@ autenticar_usuario(usuario, contrasena). Valida las credenciales del administrad
 
 generar_reportes (huespedes, reservas): Genera los reportes administrativos sobre huéspedes registrados, habitaciones ocupadas, ingresos y más. 
 
-## Plan de versionado
+## Plan del Proyecto
 ### Cronograma:
 
 [CRONOGRAMA_PLAN PROYECTO (2).xlsx](https://github.com/user-attachments/files/20218852/CRONOGRAMA_PLAN.PROYECTO.2.xlsx)
