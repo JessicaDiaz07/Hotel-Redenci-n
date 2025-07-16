@@ -4,7 +4,7 @@
 
 - Santiago Ceballos Garro – Desarrollador. 
 - Luna Daniela Arismendi Tafur – Coordinadora del proyecto. 
-- Jessica Julieth Diaz Dizzett – Analista de Calidad. 
+- Jessica Julieth Diaz Dizzett – Analista.
 
 ## Vínculos académicos y descripción: 
 
