@@ -2,7 +2,7 @@
 
 ## Integrantes 
 
-- Santiago Ceballos Garro – Desarrollador. 
+- Santiago Ceballos Garro – Organizador. 
 - Luna Daniela Arismendi Tafur – Coordinadora del proyecto. 
 - Jessica Julieth Diaz Dizzett – Analista.
 
